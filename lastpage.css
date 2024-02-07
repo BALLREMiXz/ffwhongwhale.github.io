@@ -1,0 +1,32 @@
+.boxcontent {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 61%;
+    top: 50%;
+    width: 960px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: x-large;
+    padding: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.click {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(255, 85, 0);
+    font-size: x-large;
+}
+
+.click:hover {
+    background-color: rgb(255, 85, 0);
+    color: white;
+}
